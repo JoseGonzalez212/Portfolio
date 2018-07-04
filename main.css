@@ -1,0 +1,37 @@
+#nav-menu {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    background-color: #66ff66;
+}
+#nav-menu a {
+    padding: 10px;
+}
+#intro {
+    background-color: #0099ff;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#front-page {
+    height: 100vh;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+#web-dev-pic {
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+#skills {
+    background-color: #e6e6e6;
+    display: block;
+    margin-top: 0px;
+}
+#contact {
+    background-color: #e6e6e6;
+}
