@@ -7,6 +7,9 @@
 #nav-menu a {
     padding: 15px;
 }
+a:visited {
+    color: black;
+}
 #intro {
     background-color: #e5fdff;
     height: 50vh;
@@ -20,6 +23,12 @@
     border-top-style: solid;
     border-top-width: 1px;
     border-top-color: rgba(0,0,0,.125);
+}
+.contactlogo {
+    height: 40px;
+}
+.links {
+    padding: 10px;
 }
 #front-page {
     height: 55vh;
