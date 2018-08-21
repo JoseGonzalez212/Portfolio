@@ -67,7 +67,7 @@ a:link {
 }
 .projects-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     margin: 10px;
     grid-column-gap: 10px;
     grid-row-gap: 15px;
@@ -83,4 +83,15 @@ a:link {
 #projects {
     background-color: #e5fdff;
     padding-top: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin: 10px;
+      grid-column-gap: 10px;
+      grid-row-gap: 15px;
+      padding-bottom: 10px;
+  }
 }
