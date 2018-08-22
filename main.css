@@ -1,17 +1,21 @@
 #nav-menu {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 5vh;
     /* background-color: #d83900; */
 }
 #nav-menu a {
-    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 a:visited {
     color: black;
 }
 #intro {
     background-color: #e5fdff;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -35,7 +39,7 @@ a:visited {
     padding: 10px;
 }
 #front-page {
-    height: 55vh;
+    height: 60vh;
 }
 .heading {
     margin-top: 0px;
