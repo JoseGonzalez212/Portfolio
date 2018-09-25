@@ -14,8 +14,8 @@ a:visited {
 }
 #intro {
     background-color: #e5fdff;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ a:visited {
 }
 .profilepic {
   border-radius: 15px;
-  height: 120px;
+  height: 180px;
 }
 .links {
     padding: 10px;
@@ -41,9 +41,11 @@ a:visited {
 #front-page {
     height: 60vh;
 }
+#logos {
+  padding: 10px;
+}
 .heading {
-    margin-top: 0px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 body {
     font-family: 'Merriweather', serif;
